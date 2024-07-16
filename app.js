@@ -81,7 +81,7 @@ function checkAns(idx){
         h2.innerText=`Game over! Press any key to start. Your score : ${score}`;
         defeat.play();
         flashRed();
-        setTimeout(reset, 1000);
+        setTimeout(reset, 2000);
     }
 }
 function btnPress(){
